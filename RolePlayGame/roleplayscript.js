@@ -34,9 +34,6 @@ const locations = [
 }
 ];
 
-function goTown() {
-   update(locations[0]);
-}
 
 function update(location){
     button1.innerText = location["button text"][0];
@@ -49,6 +46,9 @@ function update(location){
 
     text.innerText = location.text;
 }
+function goTown() {
+    update(locations[0]);
+ }
 function goStore() {
     update(locations[1]);
 }
@@ -74,3 +74,10 @@ function buyWeapon() {
 
 }
 
+function fightSlime(){
+
+}
+
+function fightBeast(){
+
+}
